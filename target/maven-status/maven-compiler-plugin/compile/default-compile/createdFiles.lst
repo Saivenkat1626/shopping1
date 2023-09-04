@@ -1,0 +1,7 @@
+com\wipro\shopping1\pages\LoginPage.class
+com\wipro\shopping1\utilities\Utilities$1.class
+com\wipro\shopping1\pages\Registerpage.class
+com\wipro\shopping1\utilities\ExtentReporter.class
+com\wipro\shopping1\utilities\Utilities.class
+com\wipro\shopping1\pages\Homepage.class
+com\wipro\shopping1\listeners\TestListeners.class

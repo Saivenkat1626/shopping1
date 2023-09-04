@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T10:15:11 IST" name="Surefire suite" finished-at="2023-09-04T10:16:10 IST" duration-ms="59306">
+    <groups>
+    </groups>
+    <test started-at="2023-09-04T10:15:11 IST" name="Surefire test" finished-at="2023-09-04T10:16:10 IST" duration-ms="59306">
+      <class name="com.wipro.shopping1.testcases.RegisterpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wipro.shopping1.testcases.RegisterpageTest@bae7dc0]" started-at="2023-09-04T10:16:00 IST" name="setup" finished-at="2023-09-04T10:16:06 IST" duration-ms="5834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User_enter_details()[pri:0, instance:com.wipro.shopping1.testcases.RegisterpageTest@bae7dc0]" started-at="2023-09-04T10:16:06 IST" name="User_enter_details" finished-at="2023-09-04T10:16:09 IST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_enter_details -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.shopping1.testcases.RegisterpageTest@bae7dc0]" started-at="2023-09-04T10:16:09 IST" name="tearDown" finished-at="2023-09-04T10:16:10 IST" duration-ms="1455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_enter_details status=SUCCESS method=RegisterpageTest.User_enter_details()[pri:0, instance:com.wipro.shopping1.testcases.RegisterpageTest@bae7dc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wipro.shopping1.testcases.RegisterpageTest -->
+      <class name="com.wipro.shopping1.testcases.LoginpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:11 IST" name="setup" finished-at="2023-09-04T10:15:22 IST" duration-ms="11029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_with_Invalid_Credentials()[pri:1, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:22 IST" name="Login_with_Invalid_Credentials" finished-at="2023-09-04T10:15:24 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_Invalid_Credentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:24 IST" name="tearDown" finished-at="2023-09-04T10:15:26 IST" duration-ms="1689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_with_Invalid_Credentials status=SUCCESS method=LoginpageTest.Login_with_Invalid_Credentials()[pri:1, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:27 IST" name="setup" finished-at="2023-09-04T10:15:36 IST" duration-ms="8546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_with_valid_credentials(java.lang.String,java.lang.String)[pri:2, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:36 IST" name="Login_with_valid_credentials" data-provider="validCredentialsSupplier" finished-at="2023-09-04T10:15:38 IST" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saivenkatesh.m@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sairam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_credentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:38 IST" name="tearDown" finished-at="2023-09-04T10:15:39 IST" duration-ms="1746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_with_valid_credentials status=SUCCESS method=LoginpageTest.Login_with_valid_credentials(java.lang.String,java.lang.String)[pri:2, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:39 IST" name="setup" finished-at="2023-09-04T10:15:47 IST" duration-ms="7850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_with_valid_credentials(java.lang.String,java.lang.String)[pri:2, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:47 IST" name="Login_with_valid_credentials" data-provider="validCredentialsSupplier" finished-at="2023-09-04T10:15:49 IST" duration-ms="1478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iggsr@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sairam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_credentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:49 IST" name="tearDown" finished-at="2023-09-04T10:15:50 IST" duration-ms="1795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_with_valid_credentials status=SUCCESS method=LoginpageTest.Login_with_valid_credentials(java.lang.String,java.lang.String)[pri:2, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:50 IST" name="setup" finished-at="2023-09-04T10:15:57 IST" duration-ms="6144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_with_valid_credentials(java.lang.String,java.lang.String)[pri:2, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:57 IST" name="Login_with_valid_credentials" data-provider="validCredentialsSupplier" finished-at="2023-09-04T10:15:58 IST" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pyhec@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sairam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_credentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69]" started-at="2023-09-04T10:15:58 IST" name="tearDown" finished-at="2023-09-04T10:16:00 IST" duration-ms="1738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_with_valid_credentials status=SUCCESS method=LoginpageTest.Login_with_valid_credentials(java.lang.String,java.lang.String)[pri:2, instance:com.wipro.shopping1.testcases.LoginpageTest@662b4c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wipro.shopping1.testcases.LoginpageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
